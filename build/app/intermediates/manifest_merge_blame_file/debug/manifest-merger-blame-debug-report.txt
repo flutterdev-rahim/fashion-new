@@ -1,0 +1,676 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fashion_new"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/macmini/Downloads/fashion_new/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/macmini/Downloads/fashion_new/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->[:vibration] /Users/macmini/Downloads/fashion_new/build/vibration/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-66
+16-->[:vibration] /Users/macmini/Downloads/fashion_new/build/vibration/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-63
+17
+18    <queries>
+18-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+19        <intent>
+19-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+20            <action android:name="android.support.customtabs.action.CustomTabsService" />
+20-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+20-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-87
+21        </intent>
+22        <!-- Needs to be explicitly declared on Android R+ -->
+23        <package android:name="com.google.android.apps.maps" />
+23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/macmini/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/macmini/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+26-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+27-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:24:5-79
+28-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:24:22-76
+29    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+29-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:28:5-79
+29-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:28:22-76
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+30-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:22-65
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+31-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+32-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:18.0.2] /Users/macmini/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:18.0.2] /Users/macmini/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+36        android:required="true" />
+36-->[com.google.android.gms:play-services-maps:18.0.2] /Users/macmini/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+37
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.android.installreferrer:installreferrer:1.0] /Users/macmini/.gradle/caches/transforms-3/b8bd5146d9d0175b10dfe49878b052d7/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+38-->[com.android.installreferrer:installreferrer:1.0] /Users/macmini/.gradle/caches/transforms-3/b8bd5146d9d0175b10dfe49878b052d7/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+39
+40    <application
+41        android:name="android.app.Application"
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.8.0] /Users/macmini/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+45        android:label="fashion_new"
+46        android:supportsRtl="true" >
+46-->[com.facebook.android:facebook-login:13.2.0] /Users/macmini/.gradle/caches/transforms-3/a366f9737ceaf21cac1308d20f0d691c/transformed/jetified-facebook-login-13.2.0/AndroidManifest.xml:28:18-44
+47        <activity
+48            android:name="com.example.fashion_new.MainActivity"
+49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50            android:exported="true"
+51            android:hardwareAccelerated="true"
+52            android:launchMode="singleTop"
+53            android:theme="@style/LaunchTheme"
+54            android:windowSoftInputMode="adjustResize" >
+55
+56            <!--
+57                 Specifies an Android theme to apply to this Activity as soon as
+58                 the Android process has started. This theme is visible to the user
+59                 while the Flutter UI initializes. After that, this theme continues
+60                 to determine the Window background behind the Flutter UI.
+61            -->
+62            <meta-data
+63                android:name="io.flutter.embedding.android.NormalTheme"
+64                android:resource="@style/NormalTheme" />
+65
+66            <intent-filter>
+67                <action android:name="android.intent.action.MAIN" />
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+70            </intent-filter>
+71        </activity>
+72        <!--
+73             Don't delete the meta-data below.
+74             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+75        -->
+76        <meta-data
+77            android:name="flutterEmbedding"
+78            android:value="2" />
+79
+80        <service
+80-->[:firebase_auth] /Users/macmini/Downloads/fashion_new/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+81            android:name="com.google.firebase.components.ComponentDiscoveryService"
+81-->[:firebase_auth] /Users/macmini/Downloads/fashion_new/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+82            android:directBootAware="true"
+82-->[com.google.firebase:firebase-common:20.1.1] /Users/macmini/.gradle/caches/transforms-3/38e97678fc0b2269e99f6580e70ed26a/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+83            android:exported="false" >
+83-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:66:13-37
+84            <meta-data
+84-->[:firebase_auth] /Users/macmini/Downloads/fashion_new/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+85-->[:firebase_auth] /Users/macmini/Downloads/fashion_new/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_auth] /Users/macmini/Downloads/fashion_new/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+87            <meta-data
+87-->[:firebase_core] /Users/macmini/Downloads/fashion_new/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+88-->[:firebase_core] /Users/macmini/Downloads/fashion_new/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_core] /Users/macmini/Downloads/fashion_new/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:67:13-69:85
+91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+91-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:68:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:69:17-82
+93        </service>
+94
+95        <provider
+95-->[:image_picker_android] /Users/macmini/Downloads/fashion_new/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+96            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+96-->[:image_picker_android] /Users/macmini/Downloads/fashion_new/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+97            android:authorities="com.example.fashion_new.flutter.image_provider"
+97-->[:image_picker_android] /Users/macmini/Downloads/fashion_new/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+98            android:exported="false"
+98-->[:image_picker_android] /Users/macmini/Downloads/fashion_new/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+99            android:grantUriPermissions="true" >
+99-->[:image_picker_android] /Users/macmini/Downloads/fashion_new/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+100            <meta-data
+100-->[:image_picker_android] /Users/macmini/Downloads/fashion_new/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+101                android:name="android.support.FILE_PROVIDER_PATHS"
+101-->[:image_picker_android] /Users/macmini/Downloads/fashion_new/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+102                android:resource="@xml/flutter_image_picker_file_paths" />
+102-->[:image_picker_android] /Users/macmini/Downloads/fashion_new/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+103        </provider>
+104
+105        <activity
+105-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:47
+106            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+106-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+107            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+107-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-137
+108            android:exported="true"
+108-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-36
+109            android:theme="@style/AppTheme" />
+109-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-44
+110        <activity
+110-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:55
+111            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+111-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-112
+112            android:exported="true"
+112-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+113            android:theme="@style/ThemeTransparent" />
+113-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-52
+114        <activity
+114-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-28:55
+115            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+115-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-106
+116            android:exported="true"
+116-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+117            android:theme="@style/ThemeTransparent" />
+117-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-52
+118        <activity
+118-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-33:55
+119            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+119-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-126
+120            android:exported="true"
+120-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-36
+121            android:launchMode="singleInstance"
+121-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-48
+122            android:theme="@style/ThemeTransparent" />
+122-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-52
+123        <activity
+123-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-38:55
+124            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+124-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-120
+125            android:exported="true"
+125-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-36
+126            android:launchMode="singleInstance"
+126-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-48
+127            android:theme="@style/ThemeTransparent" />
+127-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-52
+128
+129        <receiver
+129-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-43:40
+130            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+130-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-111
+131            android:enabled="true"
+131-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-35
+132            android:exported="false" />
+132-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-37
+133
+134        <meta-data
+134-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:36
+135            android:name="io.flutter.embedded_views_preview"
+135-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-61
+136            android:value="true" />
+136-->[:flutter_inappwebview] /Users/macmini/Downloads/fashion_new/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-33
+137
+138        <service
+138-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:56
+139            android:name="com.lyokone.location.FlutterLocationService"
+139-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-71
+140            android:enabled="true"
+140-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+141            android:exported="false"
+141-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+142            android:foregroundServiceType="location" />
+142-->[:location] /Users/macmini/Downloads/fashion_new/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-53
+143
+144        <uses-library
+144-->[androidx.window:window:1.0.0-beta04] /Users/macmini/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+145            android:name="androidx.window.extensions"
+145-->[androidx.window:window:1.0.0-beta04] /Users/macmini/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+146            android:required="false" />
+146-->[androidx.window:window:1.0.0-beta04] /Users/macmini/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+147        <uses-library
+147-->[androidx.window:window:1.0.0-beta04] /Users/macmini/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+148            android:name="androidx.window.sidecar"
+148-->[androidx.window:window:1.0.0-beta04] /Users/macmini/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+149            android:required="false" />
+149-->[androidx.window:window:1.0.0-beta04] /Users/macmini/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+150
+151        <activity
+151-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:27:9-44:20
+152            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+152-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:28:13-80
+153            android:excludeFromRecents="true"
+153-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:29:13-46
+154            android:exported="true"
+154-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:30:13-36
+155            android:launchMode="singleTask"
+155-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:31:13-44
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+156-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:32:13-72
+157            <intent-filter>
+157-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:33:13-43:29
+158                <action android:name="android.intent.action.VIEW" />
+158-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:34:17-69
+158-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:34:25-66
+159
+160                <category android:name="android.intent.category.DEFAULT" />
+160-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:36:17-76
+160-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:36:27-73
+161                <category android:name="android.intent.category.BROWSABLE" />
+161-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:37:17-78
+161-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:37:27-75
+162
+163                <data
+163-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:39:17-42:51
+164                    android:host="firebase.auth"
+164-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:40:21-49
+165                    android:path="/"
+165-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:41:21-37
+166                    android:scheme="genericidp" />
+166-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:42:21-48
+167            </intent-filter>
+168        </activity>
+169        <activity
+169-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:45:9-62:20
+170            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+170-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:46:13-79
+171            android:excludeFromRecents="true"
+171-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:47:13-46
+172            android:exported="true"
+172-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:48:13-36
+173            android:launchMode="singleTask"
+173-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:49:13-44
+174            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+174-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:50:13-72
+175            <intent-filter>
+175-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:51:13-61:29
+176                <action android:name="android.intent.action.VIEW" />
+176-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:34:17-69
+176-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:34:25-66
+177
+178                <category android:name="android.intent.category.DEFAULT" />
+178-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:36:17-76
+178-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:36:27-73
+179                <category android:name="android.intent.category.BROWSABLE" />
+179-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:37:17-78
+179-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:37:27-75
+180
+181                <data
+181-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:39:17-42:51
+182                    android:host="firebase.auth"
+182-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:40:21-49
+183                    android:path="/"
+183-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:41:21-37
+184                    android:scheme="recaptcha" />
+184-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:42:21-48
+185            </intent-filter>
+186        </activity>
+187
+188        <provider
+188-->[com.google.firebase:firebase-common:20.1.1] /Users/macmini/.gradle/caches/transforms-3/38e97678fc0b2269e99f6580e70ed26a/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+189            android:name="com.google.firebase.provider.FirebaseInitProvider"
+189-->[com.google.firebase:firebase-common:20.1.1] /Users/macmini/.gradle/caches/transforms-3/38e97678fc0b2269e99f6580e70ed26a/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+190            android:authorities="com.example.fashion_new.firebaseinitprovider"
+190-->[com.google.firebase:firebase-common:20.1.1] /Users/macmini/.gradle/caches/transforms-3/38e97678fc0b2269e99f6580e70ed26a/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+191            android:directBootAware="true"
+191-->[com.google.firebase:firebase-common:20.1.1] /Users/macmini/.gradle/caches/transforms-3/38e97678fc0b2269e99f6580e70ed26a/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+192            android:exported="false"
+192-->[com.google.firebase:firebase-common:20.1.1] /Users/macmini/.gradle/caches/transforms-3/38e97678fc0b2269e99f6580e70ed26a/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+193            android:initOrder="100" />
+193-->[com.google.firebase:firebase-common:20.1.1] /Users/macmini/.gradle/caches/transforms-3/38e97678fc0b2269e99f6580e70ed26a/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+194
+195        <activity
+195-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:30:9-33:66
+196            android:name="com.facebook.FacebookActivity"
+196-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:31:13-57
+197            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+197-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:32:13-96
+198            android:theme="@style/com_facebook_activity_theme" />
+198-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:33:13-63
+199        <activity android:name="com.facebook.CustomTabMainActivity" />
+199-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:9-71
+199-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:19-68
+200        <activity
+200-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:35:9-49:20
+201            android:name="com.facebook.CustomTabActivity"
+201-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:36:13-58
+202            android:exported="true" >
+202-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:37:13-36
+203            <intent-filter>
+203-->[com.facebook.android:facebook-common:13.2.0] /Users/macmini/.gradle/caches/transforms-3/915f4b653e57eb4668604e718931e3ef/transformed/jetified-facebook-common-13.2.0/AndroidManifest.xml:39:13-48:29
+204                <action android:name="android.intent.action.VIEW" />
+204-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:34:17-69
+204-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:34:25-66
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:36:17-76
+206-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:36:27-73
+207                <category android:name="android.intent.category.BROWSABLE" />
+207-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:37:17-78
+207-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:37:27-75
+208
+209                <data
+209-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:39:17-42:51
+210                    android:host="cct.com.example.fashion_new"
+210-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:40:21-49
+211                    android:scheme="fbconnect" />
+211-->[com.google.firebase:firebase-auth:21.0.5] /Users/macmini/.gradle/caches/transforms-3/cfaf754a77ec3bf2dee823207bbc55dd/transformed/jetified-firebase-auth-21.0.5/AndroidManifest.xml:42:21-48
+212            </intent-filter>
+213        </activity>
+214        <!--
+215         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+216         with the application context. This config is merged in with the host app's manifest,
+217         but there can only be one provider with the same authority activated at any given
+218         point; so if the end user has two or more different apps that use Facebook SDK, only the
+219         first one will be able to use the provider. To work around this problem, we use the
+220         following placeholder in the authority to identify each host application as if it was
+221         a completely different provider.
+222        -->
+223        <provider
+223-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:41:9-44:40
+224            android:name="com.facebook.internal.FacebookInitProvider"
+224-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:42:13-70
+225            android:authorities="com.example.fashion_new.FacebookInitProvider"
+225-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:43:13-72
+226            android:exported="false" />
+226-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:44:13-37
+227
+228        <receiver
+228-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:46:9-52:20
+229            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+229-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:47:13-86
+230            android:exported="false" >
+230-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:48:13-37
+231            <intent-filter>
+231-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:49:13-51:29
+232                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+232-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:17-95
+232-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:25-92
+233            </intent-filter>
+234        </receiver>
+235        <receiver
+235-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:53:9-59:20
+236            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+236-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:54:13-118
+237            android:exported="false" >
+237-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:55:13-37
+238            <intent-filter>
+238-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:56:13-58:29
+239                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+239-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:17-103
+239-->[com.facebook.android:facebook-core:13.2.0] /Users/macmini/.gradle/caches/transforms-3/ba7166bae24a88e885162eaee267ae96/transformed/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:25-100
+240            </intent-filter>
+241        </receiver>
+242
+243        <provider
+243-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+244            android:name="androidx.startup.InitializationProvider"
+244-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+245            android:authorities="com.example.fashion_new.androidx-startup"
+245-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+246            android:exported="false" >
+246-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+247            <meta-data
+247-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+248                android:name="androidx.work.WorkManagerInitializer"
+248-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+249                android:value="androidx.startup" />
+249-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+250            <meta-data
+250-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+251                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+251-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+252                android:value="androidx.startup" />
+252-->[androidx.emoji2:emoji2:1.0.0] /Users/macmini/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+253            <meta-data
+253-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macmini/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+254                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+254-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macmini/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+255                android:value="androidx.startup" />
+255-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macmini/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+256        </provider>
+257
+258        <service
+258-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+259            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+259-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+260            android:directBootAware="false"
+260-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+261            android:enabled="@bool/enable_system_alarm_service_default"
+261-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+262            android:exported="false" />
+262-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+263        <service
+263-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+264            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+264-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+265            android:directBootAware="false"
+265-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+266            android:enabled="@bool/enable_system_job_service_default"
+266-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+267            android:exported="true"
+267-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+268            android:permission="android.permission.BIND_JOB_SERVICE" />
+268-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+269        <service
+269-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+270            android:name="androidx.work.impl.foreground.SystemForegroundService"
+270-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+271            android:directBootAware="false"
+271-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+272            android:enabled="@bool/enable_system_foreground_service_default"
+272-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+273            android:exported="false" />
+273-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+274
+275        <receiver
+275-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+276            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+276-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+278            android:enabled="true"
+278-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+279            android:exported="false" />
+279-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+280        <receiver
+280-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+281            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+281-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+283            android:enabled="false"
+283-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+284            android:exported="false" >
+284-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+285            <intent-filter>
+285-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+286                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+286-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+286-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+287                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+287-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+287-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+288            </intent-filter>
+289        </receiver>
+290        <receiver
+290-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+291            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+291-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+293            android:enabled="false"
+293-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+294            android:exported="false" >
+294-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+295            <intent-filter>
+295-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+296                <action android:name="android.intent.action.BATTERY_OKAY" />
+296-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+296-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+297                <action android:name="android.intent.action.BATTERY_LOW" />
+297-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+297-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+298            </intent-filter>
+299        </receiver>
+300        <receiver
+300-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+301            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+301-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+302            android:directBootAware="false"
+302-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+303            android:enabled="false"
+303-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+304            android:exported="false" >
+304-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+305            <intent-filter>
+305-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+306                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+306-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+306-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+307                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+307-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+307-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+308            </intent-filter>
+309        </receiver>
+310        <receiver
+310-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+311            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+311-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+312            android:directBootAware="false"
+312-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+313            android:enabled="false"
+313-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+314            android:exported="false" >
+314-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+315            <intent-filter>
+315-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+316                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+316-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+316-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+317            </intent-filter>
+318        </receiver>
+319        <receiver
+319-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+320            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+320-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+321            android:directBootAware="false"
+321-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+322            android:enabled="false"
+322-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+323            android:exported="false" >
+323-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+324            <intent-filter>
+324-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+325                <action android:name="android.intent.action.BOOT_COMPLETED" />
+325-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+325-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+326                <action android:name="android.intent.action.TIME_SET" />
+326-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+326-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+327                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+327-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+327-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+328            </intent-filter>
+329        </receiver>
+330        <receiver
+330-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+331            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+331-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+332            android:directBootAware="false"
+332-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+333            android:enabled="@bool/enable_system_alarm_service_default"
+333-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+334            android:exported="false" >
+334-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+335            <intent-filter>
+335-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+336                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+336-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+336-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+337            </intent-filter>
+338        </receiver>
+339        <receiver
+339-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+340            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+340-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+341            android:directBootAware="false"
+341-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+342            android:enabled="true"
+342-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+343            android:exported="true"
+343-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+344            android:permission="android.permission.DUMP" >
+344-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+345            <intent-filter>
+345-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+346                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+346-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+346-->[androidx.work:work-runtime:2.7.0] /Users/macmini/.gradle/caches/transforms-3/7403a55938e770188805fc63e1c54396/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+347            </intent-filter>
+348        </receiver> <!-- Needs to be explicitly declared on P+ -->
+349        <uses-library
+349-->[com.google.android.gms:play-services-maps:18.0.2] /Users/macmini/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+350            android:name="org.apache.http.legacy"
+350-->[com.google.android.gms:play-services-maps:18.0.2] /Users/macmini/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+351            android:required="false" />
+351-->[com.google.android.gms:play-services-maps:18.0.2] /Users/macmini/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+352
+353        <activity
+353-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+354            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+354-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+355            android:excludeFromRecents="true"
+355-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+356            android:exported="false"
+356-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+357            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+357-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+358        <!--
+359            Service handling Google Sign-In user revocation. For apps that do not integrate with
+360            Google Sign-In, this service will never be started.
+361        -->
+362        <service
+362-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+363            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+363-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+364            android:exported="true"
+364-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+365            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+365-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+366            android:visibleToInstantApps="true" />
+366-->[com.google.android.gms:play-services-auth:20.0.1] /Users/macmini/.gradle/caches/transforms-3/9d5ce699c81f146c39aea3d75757161d/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+367
+368        <activity
+368-->[com.google.android.gms:play-services-base:18.0.1] /Users/macmini/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+369            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+369-->[com.google.android.gms:play-services-base:18.0.1] /Users/macmini/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+370            android:exported="false"
+370-->[com.google.android.gms:play-services-base:18.0.1] /Users/macmini/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+371            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+371-->[com.google.android.gms:play-services-base:18.0.1] /Users/macmini/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+372
+373        <meta-data
+373-->[com.google.android.gms:play-services-basement:18.0.0] /Users/macmini/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+374            android:name="com.google.android.gms.version"
+374-->[com.google.android.gms:play-services-basement:18.0.0] /Users/macmini/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+375            android:value="@integer/google_play_services_version" />
+375-->[com.google.android.gms:play-services-basement:18.0.0] /Users/macmini/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+376
+377        <service
+377-->[androidx.room:room-runtime:2.2.5] /Users/macmini/.gradle/caches/transforms-3/155e0ac8599c055a84c5726d00973d3b/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+378            android:name="androidx.room.MultiInstanceInvalidationService"
+378-->[androidx.room:room-runtime:2.2.5] /Users/macmini/.gradle/caches/transforms-3/155e0ac8599c055a84c5726d00973d3b/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+379            android:directBootAware="true"
+379-->[androidx.room:room-runtime:2.2.5] /Users/macmini/.gradle/caches/transforms-3/155e0ac8599c055a84c5726d00973d3b/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+380            android:exported="false" />
+380-->[androidx.room:room-runtime:2.2.5] /Users/macmini/.gradle/caches/transforms-3/155e0ac8599c055a84c5726d00973d3b/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+381    </application>
+382
+383</manifest>
